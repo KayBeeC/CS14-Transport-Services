@@ -90,6 +90,7 @@
   border-radius: 15px;
   background-color: #eeeeee;
   transition: 100ms ease-out;
+  cursor: pointer;
 }
 
 #bootstrap-overrides.card {

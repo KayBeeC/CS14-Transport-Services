@@ -11,12 +11,13 @@ body {
 h1 {
     font-weight: 700;
     font-size: 35pt;
-    color: #3400A9;
+    color: #1565c0;
 }
 h3 {
     font-weight: 600;
     font-size: 25pt;
     margin-bottom: 1rem;
+    color: #000000;
 }
 #div_id_is_round_trip{
     font-weight: 600;
@@ -53,7 +54,7 @@ h3 {
 .formButton {
     background-color: #0DA73A;
     border: none;
-    box-shadow: 0 5px 25px #0c0b4b4f;
+    box-shadow: 0 5px 40px rgba(80, 145, 255, 0.27);
     text-align: center;
     font-size: 1.4rem;
     color: white;
@@ -79,13 +80,14 @@ h3 {
     width: 30rem;
     border-radius: 1.5rem;
     border: none;
-    background-color: #D9D9E6;
-    color: #00017B;
+    background-color: #FFFFFF;
+    color: #787878;
     font-weight: 600;
     font-size: 15pt;
     margin-bottom: 20px;
     padding-right: 1rem;
     padding-left: 20pt;
+    text-align: left;
 
 }
 .formTextField:hover{
@@ -93,7 +95,7 @@ h3 {
 
 }
 .formTextField::placeholder {
-    color: #00017B;
+    color: #787878;
     font-size: 15pt;
     font-weight: 600;
 
@@ -128,7 +130,11 @@ html,body
     overflow-x: hidden;
 }
 
-label{width: 400px !important;}
+label{
+    width: 400px !important;
+    color: #000000;
+}
+
 
 
 
